@@ -1,4 +1,4 @@
-image: jelaniwoods/appdev2020-omnicalc-1
+image: patrickmckernin/omnicalc-debug-fall2020
 
 tasks:
   - init: bin/setup
