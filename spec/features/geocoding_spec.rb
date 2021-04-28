@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe "/street-to-coords/new" do
-  it "displays the street address", points: 0 do
+  it "displays the street address when form is submitted", points: 0 do
     #====================  Begin setup  ===========================#
     # captures a URL pattern for the Google geocoding API call
     address_regex = /1600.*Pennsylvania.*Ave.*NW/i
@@ -19,7 +19,7 @@ describe "/street-to-coords/new" do
 end
 
 describe "/street-to-coords/new" do
-  it "displays the latitude", points: 1 do
+  it "displays the latitude when form is submitted", points: 1 do
     #====================  Begin setup  ===========================#
     # captures a URL pattern for the Google geocoding API call
     address_regex = /1600.*Pennsylvania.*Ave.*NW/i
@@ -37,7 +37,7 @@ describe "/street-to-coords/new" do
 end
 
 describe "/street-to-coords/new" do
-  it "displays the longitude", points: 1 do
+  it "displays the longitude when form is submitted", points: 1 do
     #====================  Begin setup  ===========================#
     # captures a URL pattern for the Google geocoding API call
     address_regex = /1600.*Pennsylvania.*Ave.*NW/i
