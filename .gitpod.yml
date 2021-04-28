@@ -1,6 +1,7 @@
-image: patrickmckernin/omnicalc-debug-fall2020
+image: jelaniwoods/appdev2021-omnicalc-debug@sha256:10d2892e2fc675042838077538d29b9d8903a78312a95601b3ec50ad62349b7f
 
 tasks:
+  - command: bundle install
   - init: bin/setup
 ports:
   - port: 3000
