@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe "/street-to-weather/new" do
-  it "displays the street address", points: 0 do
+  it "displays the street address when form is submitted", points: 0 do
     #====================  Begin setup  ===========================#
     # captures a URL pattern for the Google geocoding API call
     address_regex = /1600.*Pennsylvania.*Ave.*NW/i
@@ -24,7 +24,7 @@ describe "/street-to-weather/new" do
 end
 
 describe "/street-to-weather/new" do
-  it "displays the current temperature", points: 1 do
+  it "displays the current temperature when form is submitted", points: 1 do
     #====================  Begin setup  ===========================#
     # captures a URL pattern for the Google geocoding API call
     address_regex = /1600.*Pennsylvania.*Ave.*NW/i
@@ -48,7 +48,7 @@ describe "/street-to-weather/new" do
 end
 
 describe "/street-to-weather/new" do
-  it "displays the current summary", points: 1 do
+  it "displays the current summary when form is submitted", points: 1 do
     #====================  Begin setup  ===========================#
     # captures a URL pattern for the Google geocoding API call
     address_regex = /1600.*Pennsylvania.*Ave.*NW/i
@@ -72,7 +72,7 @@ describe "/street-to-weather/new" do
 end
 
 describe "/street-to-weather/new" do
-  it "displays the outlook for the next sixty minutes", points: 1 do
+  it "displays the outlook for the next sixty minutes when form is submitted", points: 1 do
     #====================  Begin setup  ===========================#
     # captures a URL pattern for the Google geocoding API call
     address_regex = /1600.*Pennsylvania.*Ave.*NW/i
@@ -96,7 +96,7 @@ describe "/street-to-weather/new" do
 end
 
 describe "/street-to-weather/new" do
-  it "displays the outlook for the next several hours", points: 1 do
+  it "displays the outlook for the next several hours when form is submitted", points: 1 do
     #====================  Begin setup  ===========================#
     # captures a URL pattern for the Google geocoding API call
     address_regex = /1600.*Pennsylvania.*Ave.*NW/i
@@ -120,7 +120,7 @@ describe "/street-to-weather/new" do
 end
 
 describe "/street-to-weather/new" do
-  it "displays the outlook for the next several days", points: 1 do
+  it "displays the outlook for the next several days when form is submitted", points: 1 do
     #====================  Begin setup  ===========================#
     # captures a URL pattern for the Google geocoding API call
     address_regex = /1600.*Pennsylvania.*Ave.*NW/i
