@@ -1,4 +1,4 @@
-image: jelaniwoods/appdev2021-omnicalc-debug@sha256:10d2892e2fc675042838077538d29b9d8903a78312a95601b3ec50ad62349b7f
+image: jelaniwoods/appdev2021-omnicalc-debug@sha256:b0686fe99a69a56577b4487ba7bc922dcebb13744eb122e09193e316395b6a6d
 
 tasks:
   - command: bundle install
